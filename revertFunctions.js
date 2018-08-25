@@ -24,6 +24,4 @@ const revert3 = str => {
  
   /* ------------------------------------------- */
  
-const revert4 = str => {
-		return (str === '') ? '' : revert4(str.substr(1)) + str.charAt(0);
-}
+const revert4 = str => (str === '') ? '' : revert4(str.substr(1)) + str.charAt(0);
